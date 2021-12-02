@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingActionButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"/>
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/google"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/buscador"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:src="@mipmap/cloone" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="George Cloonney once gave 14 friends $1 million each -- in cash"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="He shared the anecdote in an interview with GQ,which crowned Clooney its Icon of the year,amog other ho..."
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+                android:layout_weight="1"
+                android:src="@mipmap/cnn"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:text="CNN.com:19hours"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:src="@mipmap/cnn"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:src="@mipmap/cnn"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:src="@mipmap/cloone" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="George Cloonney once gave 14 friends $1 million each -- in cash"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="He shared the anecdote in an interview with GQ,which crowned Clooney its Icon of the year,amog other ho..."
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+                android:layout_weight="1"
+                android:src="@mipmap/cnn"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:text="CNN.com:19hours"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:src="@mipmap/cnn"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:src="@mipmap/cnn"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/white">
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/cnn" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/cnn" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/cnn"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/cnn"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/cnn"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
